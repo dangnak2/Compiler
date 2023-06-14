@@ -1,0 +1,18 @@
+let
+	int a = 0;
+in
+	let
+		int b = 10; int c = 0;
+	in
+	    for(int i=0; i<10; i=i+1;)
+		  c = c + i;
+		  
+		  print c;
+		  a = c;
+	end;
+	
+	if(a > 0)
+	  then a=a+1;
+	  else a=a+2;
+	print a;
+end;

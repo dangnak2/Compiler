@@ -1,0 +1,7 @@
+int sum = 0;
+int t = 10;
+for(int i=0; i<=t; i=i+1;)
+sum = sum + i;
+
+print t;
+print sum;
